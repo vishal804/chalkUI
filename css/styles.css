@@ -1,0 +1,133 @@
+:root {
+  --primary-color: #3066be;
+  --primary-hover-color: #44b6eb;
+  --secondary-color: #c5c3c6;
+  --background-color: #ffff;
+  --text-color: #1f2937;
+  --secondary-text-color: #f2f1f1;
+  --line-styling-color: #959595f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Navigation Bar Styling */
+
+.navbar {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.left-navbar {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-left: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-navbar a {
+  text-decoration: none;
+}
+
+.right-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 3rem;
+}
+
+.right-navbar li {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+.right-navbar a {
+  text-decoration: none;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 10px 4px #0000000d;
+}
+
+.logo {
+  font-style: italic;
+}
+
+/* Main Section Styling  */
+
+.section {
+  text-align: center;
+  padding-top: 7rem;
+  margin: auto;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: auto;
+  max-width: 700px;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: auto;
+  max-width: 750px;
+  text-align: center;
+  width: 90%;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--secondary-text-color);
+  padding: 1rem;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.btn a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+/* For Smaller Screen */
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .show {
+    display: block;
+  }
+  .NoShow {
+    display: none;
+  }
+
+  .logo {
+    margin: 0 5rem;
+  }
+}
