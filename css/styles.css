@@ -3,7 +3,9 @@
 @import "/css/documentation.css";
 
 @import '/component/avatar.css';
+@import '/component/alert.css';
 @import '/component/badge.css';
+
 
 :root {
   --primary-color: #3066be;
