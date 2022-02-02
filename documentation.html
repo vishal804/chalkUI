@@ -33,44 +33,254 @@
         </ul>
       </nav>
     </header>
+
+    <main class="page-container">
+      <!-- Side Navabar  -->
+
+      <div class="aside sidenav" id="sidebar">
+        <div class="list-heading">
+          <a href="#">Components</a>
+        </div>
+        <ul class="list-subheading">
+          <li class="show">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+          </li>
+          <li>
+            <a href="#component-avatar"> Avatar </a>
+          </li>
+          <li>
+            <a href="#component-Alert"> Alert </a>
+          </li>
+          <li>
+            <a href="#component-badge"> Badge </a>
+          </li>
+          <li>
+            <a href="#component-button"> Button </a>
+          </li>
+          <li>
+            <a href="#"> Card </a>
+          </li>
+          <li>
+            <a href="#"> Image </a>
+          </li>
+          <li>
+            <a href="#"> Input </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Start - All Component HTML will be in this Section   -->
+
+      <section class="component-section">
+        <!-- Start Avatar Component  -->
+        <div class="component" id="component-avatar">
+          <!-- Sized Avatar -->
+
+          <div class="container">
+            <h1 class="component-heading">Avatar</h1>
+            <p class="component-description">
+              Avatar is representation of user's profile picture.
+            </p>
+
+            <hr class="line-styling">
+
+            <h3 class="component-subheading">Sized Avatar</h3>
+            <p class="component-description">
+              Size of the avatars can be changed by adding avatar-sm | avatar-md
+              | avatar-lg class to the existing avatar class.
+            </p>
+
+            <div class="component-container">
+              <img
+                class="avatar avatar-sm"
+                src="/assets/svg/avatar1.svg"
+                alt="avatar"
+              />
+
+              <img
+                class="avatar avatar-md"
+                src="/assets/svg/avatar1.svg"
+                alt="avatar"
+              />
+
+              <img
+                class="avatar avatar-lg"
+                src="/assets/svg/avatar1.svg"
+                alt="avatar"
+              />
+            </div>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=auto&width=905.35&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522%252Fassets%252Fsvg%252Favatar1.svg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%250A%2509%2509%2509%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522%252Fassets%252Fsvg%252Favatar1.svg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%250A%2509%2509%2509%2520%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522%252Fassets%252Fsvg%252Favatar1.svg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="
+                  width: 906px;
+                  height: 169px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <!-- Sized Avatar -->
+
+          <hr class="line-styling">
+
+          <!-- Squared Avatar -->
+
+          <div class="container">
+            <h3 class="component-subheading">Squared Avatar</h3>
+            <p class="component-description">
+              Adding a class 'square' to existing class, will generate a square
+              shaped avatar.
+            </p>
+
+            <div class="component-container">
+              <img
+                class="avatar square avatar-sm"
+                src="/assets/images/avatar.jpg"
+                alt="avatar"
+              />
+
+              <img
+                class="avatar square avatar-md"
+                src="/assets/images/avatar.jpg"
+                alt="avatar"
+              />
+
+              <img
+                class="avatar square avatar-lg"
+                src="/assets/images/avatar.jpg"
+                alt="avatar"
+              />
+            </div>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=auto&width=905.35&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cimg%2520class%253D%2522avatar%2520square%2520avatar-sm%2522%2520src%253D%2522%252Fassets%252Fimages%252Favatar3.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%250A%2509%2509%253Cimg%2520class%253D%2522avatar%2520square%2520avatar-md%2522%2520src%253D%2522%252Fassets%252Fimages%252Favatar3.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%250A%2509%2509%253Cimg%2520class%253D%2522avatar%2520square%2520avatar-lg%2522%2520src%253D%2522%252Fassets%252Fimages%252Favatar3.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="
+                  width: 906px;
+                  height: 169px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr class="line-styling">
+          <!-- Squared Avatar -->
+        </div>
+        <!-- End - Avatar component  -->
+
+        <!-- Start - Badges Component -->
+        <div class="component" id="component-badge">
+          <!-- Profile Badge -->
+          <div class="container">
+            <h1 class="component-heading">Badge</h1>
+            <p class="component-description">
+              The Badge components contain Badges which are small circles, Badge
+              can be used to display numbers, online / offline status, depending
+              on where they are used.
+            </p>
+
+            <hr class="line-styling">
+
+            <h3 class="component-subheading">Profile Badge</h3>
+
+            <div class="component-container">
+              <div class="badge">
+                <div class="badge-online-image">
+                  <img
+                    class="avatar avatar-lg"
+                    src="/assets/images/avatar.jpg"
+                    alt="online"
+                  />
+                  <div class="badge-online-profile"></div>
+                </div>
+              </div>
+
+              <div class="badge">
+                <div class="badge-offline-image">
+                  <img
+                    class="avatar avatar-lg"
+                    src="/assets/images/avatar.jpg"
+                    alt="Offline"
+                  />
+                  <div class="badge-offline-profile"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=auto&width=905.35&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522badge-online-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522%252Fassets%252Fimages%252Favatar3.jpg%2522%2520alt%253D%2522online%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-online-profile%2522%253E%253C%252Fdiv%253E%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-offline-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522%252Fassets%252Fimages%252Favatar3.jpg%2522%2520alt%253D%2522Offline%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-offline-profile%2522%253E%253C%252Fdiv%253E%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                style="
+                  width: 906px;
+                  height: 243px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <!-- Profile Badge -->
+          <hr class="line-styling">
+
+          <!-- Number Badges -->
+
+          <div class="container">
+            <h3 class="component-subheading">Number Badge</h3>
+            <p class="component-description">
+              Number Badge can be used to display numbers.
+            </p>
+
+            <div class="component-container">
+              <a href="#" class="notification">
+                <span><i class="fas fa-shopping-cart fa-3x"></i></span>
+                <span class="badge">5</span>
+              </a>
+
+              <a href="#" class="notification">
+                <span><i class="fas fa-envelope-square fa-3x"></i></span>
+                <span class="badge">5</span>
+              </a>
+            </div>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=javascript&width=905.35&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522notification%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522badge%2522%253E5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522notification%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-envelope-square%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522badge%2522%253E5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fa%253E%250A"
+                style="
+                  width: 906px;
+                  height: 243px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr class="line-styling">
+          <!-- Number Badges -->
+        </div>
+        <!-- End - Badges Component -->
+      </section>
+      <!-- End - All Component HTML will be in this Section   -->
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
-
-<main class="page-container">
-  <!-- Side Navabar  -->
-
-  <div class="aside sidenav" id="sidebar">
-    <div class="list-heading">
-      <a href="#">Components</a>
-    </div>
-    <ul class="list-subheading">
-      <li class="show">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-          >&times;</a
-        >
-      </li>
-      <li>
-        <a href="#component-avatar"> Avatar </a>
-      </li>
-      <li>
-        <a href="#component-Alert"> Alert </a>
-      </li>
-      <li>
-        <a href="#component-badge"> Badge </a>
-      </li>
-      <li>
-        <a href="#component-button"> Button </a>
-      </li>
-      <li>
-        <a href="#"> Card </a>
-      </li>
-      <li>
-        <a href="#"> Image </a>
-      </li>
-      <li>
-        <a href="#"> Input </a>
-      </li>
-    </ul>
-  </div>
-  <script src="script.js"></script>
-</main>

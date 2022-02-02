@@ -1,0 +1,73 @@
+/* Component Styling */
+.component-section {
+  flex-grow: 1;
+}
+
+.container {
+  margin: auto;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.component-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.component-description {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  margin: 0 0 2rem 0;
+}
+
+.component-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #f5f7f9;
+  min-height: 9rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 2rem 0;
+  padding: 1rem;
+}
+
+.card-component-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #f5f7f9;
+  min-height: 9rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 2rem 0;
+  padding: 1rem;
+}
+
+.alert-box {
+  flex-direction: column;
+}
+
+.component-subheading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.component-container img {
+  margin: 0 0.625rem;
+}
+
+.component-code {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 9rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.line-styling {
+  margin: 0 0 2rem 0;
+}
