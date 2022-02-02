@@ -1,0 +1,41 @@
+.show {
+  display: none;
+}
+
+.NoShow {
+  display: block;
+}
+
+.page-container {
+  display: flex;
+  width: 80%;
+}
+
+.section {
+  margin: 3rem;
+  padding: 0 1rem;
+}
+
+
+/* For Smaller Screen  */
+
+@media only screen and (max-width: 768px){
+
+    .show{
+        display: block;
+    }
+
+   .NoShow{
+        display: none;
+    }
+
+    .logo{
+        margin: 0 5rem;
+    }
+
+    .page-container{
+        display: block;
+        width: 80%;
+    }
+
+}
