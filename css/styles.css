@@ -1,7 +1,8 @@
-@import '/css/component.css';
-@import '/css/aside.css';
-@import '/css/documentation.css';
+@import "/css/component.css";
+@import "/css/aside.css";
+@import "/css/documentation.css";
 
+@import '/component/avatar.css';
 
 :root {
   --primary-color: #3066be;
@@ -11,6 +12,11 @@
   --text-color: #1f2937;
   --secondary-text-color: #f2f1f1;
   --line-styling-color: #959595f3;
+  --success-color: #0b6631;
+  --danger-color: #b91c1c;
+  --color-danger-bg: #fee2e2;
+  --color-success-bg: #d1fae5;
+  --warning-color: #ff6f00;
 }
 
 * {
