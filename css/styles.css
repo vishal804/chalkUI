@@ -1,3 +1,8 @@
+@import '/css/component.css';
+@import '/css/aside.css';
+@import '/css/documentation.css';
+
+
 :root {
   --primary-color: #3066be;
   --primary-hover-color: #44b6eb;

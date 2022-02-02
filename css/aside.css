@@ -1,36 +1,73 @@
-.aside{
-    flex: 0 0 230px;
-    margin-right: 1rem;
-   padding: 1rem;
-    box-shadow: 0 4px 12px 0 rgba(0 0 0 / 5%);
+@import '/css/styles.css';
+.aside {
+  flex: 0 0 230px;
+  margin-right: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 12px 0 rgba(0 0 0 / 5%);
 }
 
-.list-heading{
-    padding: 1rem;
-    font-weight: 500;
-    border-bottom: 1px solid #959595f3;
-    margin-bottom: 0.5rem;
+.list-heading {
+  padding: 1rem;
+  font-weight: 500;
+  border-bottom: 1px solid #959595f3;
+  margin-bottom: 0.5rem;
 }
 
-.list-heading a{
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 1rem;
+.list-heading a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
-.list-subheading li{
-    list-style: none;
-    padding: 0.7rem 1.1rem;
-    cursor: pointer;
+.list-subheading li {
+  list-style: none;
+  padding: 0.7rem 1.1rem;
+  cursor: pointer;
 }
 
-.list-subheading li a:hover{
+.list-subheading li a:hover {
   color: var(--primary-color);
 }
 
-.list-subheading a{
-    display: flex;
-    align-items: center;
+.list-subheading a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Side bar For Smaller Screen  */
+
+@media only screen and (max-width: 768px) {
+  .aside {
+    height: 100%;
+    width: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 3rem;
+    transition: 0.5s;
+  }
+
+  .aside a {
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
     text-decoration: none;
-    transition: all .3s ease-in-out;
+    font-size: 1rem;
+    color: #818181;
+    color: var(--secondary-text-color);
+    display: block;
+    transition: 0.3s;
+  }
+
+  .aside .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
 }
