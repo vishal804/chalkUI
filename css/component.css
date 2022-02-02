@@ -69,6 +69,5 @@
 }
 
 .line-styling {
-  border-bottom: 1px solid var(--line-styling-color);
   margin: 0 0 2rem 0;
 }
