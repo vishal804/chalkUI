@@ -6,6 +6,7 @@
 @import "/component/alert.css";
 @import "/component/badge.css";
 @import "/component/button.css";
+@import "/component/card.css";
 
 :root {
   --primary-color: #3066be;
@@ -13,6 +14,8 @@
   --secondary-color: #c5c3c6;
   --secondary-hover-color: #d2d1d3;
   --background-color: #ffff;
+  --secondary-background-color: #808080;
+  --third-color: #383838;
   --default-color: #021738;
   --text-color: #1f2937;
   --secondary-text-color: #f2f1f1;
