@@ -2,14 +2,18 @@
 @import "/css/aside.css";
 @import "/css/documentation.css";
 
-@import '/component/avatar.css';
-@import '/component/badge.css';
+@import "/component/avatar.css";
+@import "/component/alert.css";
+@import "/component/badge.css";
+@import "/component/button.css";
 
 :root {
   --primary-color: #3066be;
   --primary-hover-color: #44b6eb;
   --secondary-color: #c5c3c6;
+  --secondary-hover-color: #d2d1d3;
   --background-color: #ffff;
+  --default-color: #021738;
   --text-color: #1f2937;
   --secondary-text-color: #f2f1f1;
   --line-styling-color: #959595f3;
@@ -98,26 +102,6 @@
   text-align: center;
   width: 90%;
   padding: 1rem;
-}
-
-.btn {
-  background-color: var(--primary-color);
-  color: var(--secondary-text-color);
-  padding: 1rem;
-  border: none;
-  font-weight: 600;
-  font-size: 1rem;
-  border-radius: 5px;
-  margin-top: 1rem;
-}
-
-.btn:hover {
-  background-color: var(--primary-hover-color);
-}
-
-.btn a {
-  text-decoration: none;
-  color: var(--secondary-text-color);
 }
 
 /* For Smaller Screen */

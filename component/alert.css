@@ -1,0 +1,28 @@
+.alert {
+  position: relative;
+  padding: 1rem 3rem 1rem 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  color: var(--secondary-text-color);
+  border-radius: 5px;
+}
+
+.alert-primary {
+  background-color: var(--primary-color);
+}
+
+.alert-secondary {
+  background-color: var(--secondary-color);
+}
+
+.alert-error {
+  background-color: var(--danger-color);
+}
+
+.alert-success {
+  background-color: var(--success-color);
+}
+
+.alert-warning {
+  background-color: var(--warning-color);
+}
