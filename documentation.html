@@ -66,7 +66,7 @@
             <a href="#component-image"> Image </a>
           </li>
           <li>
-            <a href="#"> Input </a>
+            <a href="#component-input"> Input </a>
           </li>
         </ul>
       </div>
@@ -733,7 +733,7 @@
             <h3 class="component-subheading">Responsive Image</h3>
 
             <div class="component-container">
-              <div class="component-container flex-centered">
+              <div class="component-container">
                 <img
                   class="responsive-image"
                   src="/assets/images/image.jpg"
@@ -796,6 +796,150 @@
         <!-- End - Image component  -->
 
         <!-- Start - Input Component  -->
+
+        <div class="component" id="component-input">
+          <!-- TextArea -->
+          <div class="container">
+            <h1 class="component-heading">Input</h1>
+            <p class="component-description">
+              Inputs are necessary for user interaction with the website.
+            </p>
+
+            <hr class="line-styling" />
+
+            <h3 class="component-subheading">Text Area</h3>
+
+            <div class="component-container">
+              <div class="component-container">
+                <div class="textarea-container">
+                  <textarea class="textarea" placeholder="Type here"></textarea>
+                  <button class="btn">Send Mail</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522textarea-container%2522%253E%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522textarea%2522%2520placeholder%253D%2522Type%2520here%2522%253E%253C%252Ftextarea%253E%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253ESend%2520Mail%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                style="
+                  width: 906px;
+                  height: 150px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr class="line-styling" />
+
+          <!-- Label Input -->
+
+          <div class="container">
+            <h3 class="component-subheading">Label Input</h3>
+            <p class="component-description">
+              Label Input has a label present with the input field.
+            </p>
+
+            <div class="component-container">
+              <form class="form">
+                <label class="form-label">Username</label>
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Enter Email"
+                  name="email"
+                  required
+                />
+                <label class="form-label">Password</label>
+                <input
+                  class="input"
+                  type="password"
+                  placeholder="Enter Password"
+                  name="password"
+                  required
+                />
+                <div class="form-btn">
+                  <button type="submit" class="btn btn-primary">Login</button>
+                  <button type="submit" class="btn btn-primary">Sign up</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cform%2520class%253D%2522form%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520Email%2522%2520name%253D%2522email%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522Enter%2520Password%2522%2520name%253D%2522password%2522%2520required%2520%252F%253E%2509%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522submit%2522%2520class%253D%2522btn%2520btn-primary%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522submit%2522%2520class%253D%2522btn%2520btn-primary%2522%253ESign%2520up%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fform%253E%250A"
+                style="
+                  width: 906px;
+                  height: 262px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr class="line-styling" />
+
+          <!-- Error Label Input -->
+          <div class="container">
+            <h3 class="component-subheading">Error Label Input</h3>
+            <p class="component-description">
+              Label Input show error error-message, and change color
+              accordingly.
+            </p>
+
+            <div class="component-container">
+              <form class="form">
+                <label class="form-label error-message">Username</label>
+                <input
+                  class="input input-error"
+                  type="text"
+                  placeholder="Enter Email"
+                  name="email"
+                  required
+                />
+                <label class="form-label error-message">Password</label>
+                <input
+                  class="input input-error"
+                  type="password"
+                  placeholder="Enter Password"
+                  name="password"
+                  required
+                />
+                <span class="error-message"
+                  >Wrong Username or Password. Try again.</span
+                >
+                <div class="form-btn">
+                  <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2520error-message%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-error%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520Email%2522%2520name%253D%2522email%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2520error-message%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-error%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522Enter%2520Password%2522%2520name%253D%2522password%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522error-message%2522%253E%2520Wrong%2520Username%2520or%2520Password.%2520Try%2520again.%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522submit%2522%2520class%253D%2522btn%2520btn-primary%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fform%253E%250A"
+                style="
+                  width: 906px;
+                  height: 262px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr class="line-styling" />
+        </div>
 
         <!-- End - Input component  -->
       </section>

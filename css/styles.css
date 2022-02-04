@@ -8,6 +8,7 @@
 @import "/component/button.css";
 @import "/component/card.css";
 @import "/component/image.css";
+@import "/component/input.css";
 
 :root {
   --primary-color: #3066be;
