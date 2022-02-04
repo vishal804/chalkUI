@@ -13,13 +13,13 @@
   --primary-hover-color: #44b6eb;
   --secondary-color: #c5c3c6;
   --secondary-hover-color: #d2d1d3;
-  --background-color: #ffff;
-  --secondary-background-color: #808080;
-  --third-color: #383838;
-  --default-color: #021738;
   --text-color: #1f2937;
   --secondary-text-color: #f2f1f1;
+  --background-color: #ffff;
+  --secondary-background-color: #808080;
+  --tertiary-color: #383838;
   --line-styling-color: #959595f3;
+  --default-color: #021738;
   --success-color: #0b6631;
   --danger-color: #b91c1c;
   --color-danger-bg: #fee2e2;
