@@ -7,6 +7,7 @@
 @import "/component/badge.css";
 @import "/component/button.css";
 @import "/component/card.css";
+@import "/component/image.css";
 
 :root {
   --primary-color: #3066be;

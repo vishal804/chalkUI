@@ -1,0 +1,12 @@
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+
+.round-image {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  object-fit: cover;
+}
