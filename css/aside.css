@@ -1,9 +1,14 @@
-@import '/css/styles.css';
+@import "/css/styles.css";
 .aside {
   flex: 0 0 230px;
   margin-right: 1rem;
   padding: 1rem;
   box-shadow: 0 4px 12px 0 rgba(0 0 0 / 5%);
+}
+
+.sidenav {
+  position: sticky;
+  top: 1rem;
 }
 
 .list-heading {
