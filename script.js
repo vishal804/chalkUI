@@ -1,13 +1,8 @@
-function openNav() {
-  document.getElementById("sidebar").style.width = "250px";
-}
+const openNav = () => document.getElementById("sidebar").style.width = "250px";
 
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-  document.getElementById("sidebar").style.width = "0";
-}
+const closeNav = () => document.getElementById("sidebar").style.width = "0";
 
-function toastToggle(id) {
+const toastToggle = (id) => {
   var toast = document.getElementById(id);
   if (toast.style.display === "none") {
     toast.style.display = "flex";
@@ -17,4 +12,4 @@ function toastToggle(id) {
   } else {
     toast.style.display = "none";
   }
-}
+};
