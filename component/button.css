@@ -53,3 +53,8 @@
   height: 3rem;
   border-radius: 50%;
 }
+
+.btn-lg {
+  width: 100%;
+  margin: 1rem 0 0 0;
+}

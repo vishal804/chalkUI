@@ -29,7 +29,7 @@
         <ul class="right-navbar">
           <li class="NoShow"><a href="index.html">Home</a></li>
           <li class="NoShow"><a href="documentation.html">Documentation</a></li>
-          <li class="NoShow"><a href="#">Example</a></li>
+          <li class="NoShow"><a href="documentation.html">Installation</a></li>
         </ul>
       </nav>
     </header>
@@ -37,43 +37,86 @@
     <main class="page-container">
       <!-- Side Navabar  -->
 
-      <div class="aside sidenav" id="sidebar">
-        <div class="list-heading">
-          <a href="#">Components</a>
+      <div class="aside" id="sidebar">
+        <div class="sidenav">
+          <div class="list-heading">
+            <a href="#">Components</a>
+          </div>
+          <ul class="list-subheading">
+            <li class="show">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+            </li>
+            <li>
+              <a href="#installation">Installation</a>
+            </li>
+            <li>
+              <a href="#component-avatar">Avatar</a>
+            </li>
+            <li>
+              <a href="#component-Alert">Alert</a>
+            </li>
+            <li>
+              <a href="#component-badge">Badge</a>
+            </li>
+            <li>
+              <a href="#component-button">Button</a>
+            </li>
+            <li>
+              <a href="#component-card">Card</a>
+            </li>
+            <li>
+              <a href="#component-image">Image</a>
+            </li>
+            <li>
+              <a href="#component-input">Input</a>
+            </li>
+          </ul>
         </div>
-        <ul class="list-subheading">
-          <li class="show">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-              >&times;</a
-            >
-          </li>
-          <li>
-            <a href="#component-avatar"> Avatar </a>
-          </li>
-          <li>
-            <a href="#component-Alert"> Alert </a>
-          </li>
-          <li>
-            <a href="#component-badge"> Badge </a>
-          </li>
-          <li>
-            <a href="#component-button"> Button </a>
-          </li>
-          <li>
-            <a href="#component-card"> Card </a>
-          </li>
-          <li>
-            <a href="#component-image"> Image </a>
-          </li>
-          <li>
-            <a href="#component-input"> Input </a>
-          </li>
-        </ul>
       </div>
 
       <!-- Start - All Component HTML will be in this Section   -->
 
       <section class="component-section">
+        <!-- Start - Installation  -->
+        <div class="component" id="installation">
+          <div class="container">
+            <h1 class="component-heading">Introduction</h1>
+            <p class="component-description">
+              Chalk UI is an robust, customizable, and accessible library which
+              helps Developers to use best styles and components you can build
+              your own design system and develop your dream applications faster
+            </p>
+
+            <hr class="line-styling" />
+
+            <h3 class="component-subheading">Installation</h3>
+            <p class="component-description">
+              In order to introduce Chalk UI to your project, Copy the Link
+              given below and paste it in Your Project html.
+            </p>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fchalkui.netlify.app%252Fcss%252Fstyles.css%2522%253E%2509%2509%2520%2520%2509%2520%2509%250A"
+                style="
+                  width: 906px;
+                  height: 111px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <!-- Sized Avatar -->
+
+          <hr class="line-styling" />
+        </div>
+
         <!-- Start - Avatar Component  -->
         <div class="component" id="component-avatar">
           <!-- Sized Avatar -->
@@ -665,14 +708,13 @@
 
           <hr class="line-styling" />
 
-          <!-- Card With Badge -->
+          <!-- Card with Dismiss -->
           <div class="container">
-            <h3 class="component-subheading">Card with Badge</h3>
+            <h3 class="component-subheading">Card with Dismiss</h3>
             <div class="card-component-container">
-              <!-- Card With Badge -->
+              <!-- Card with Dismiss -->
               <div class="card card-box-shadow">
                 <div class="card-image-container">
-                  <span class="text-badge">NEW</span>
                   <img
                     class="image-responsive"
                     src="/assets/images/card.jpg"
@@ -682,7 +724,7 @@
                 </div>
                 <div class="card-container">
                   <div class="card-text-container">
-                    <h5 class="card-heading">Card With Badge</h5>
+                    <h5 class="card-heading">Card with Dismiss</h5>
                     <p class="card-subheading">Rs 199</p>
                     <p class="card-text">
                       Cards are a convenient means of displaying content
@@ -698,10 +740,10 @@
             </div>
             <div class="component-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-badge%2522%253ENEW%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-responsive%2522%2520src%253D%2522%252Fassets%252Fimages%252Fcard.jpg%2522%2520alt%253D%2522card%2522%252F%253E%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522close-icon%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522card-heading%2522%253ECard%2520With%2520Badge%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subheading%2522%253ERs%2520199%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Cards%2520are%2520a%2520convenient%2520means%2520of%2520displaying%2520content%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520composed%2520of%2520different%2520types%2520of%2520objects.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EMove%2520to%2520Wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-responsive%2522%2520src%253D%2522%252Fassets%252Fimages%252Fcard.jpg%2522%2520alt%253D%2522card%2522%2520%252F%253E%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522close-icon%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522card-heading%2522%253ECard%2520with%2520Dismiss%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subheading%2522%253ERs%2520199%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Cards%2520are%2520a%2520convenient%2520means%2520of%2520displaying%2520content%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520composed%2520of%2520different%2520types%2520of%2520objects.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EMove%2520to%2520Wishlist%253C%252Fbutton%253E%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
                 style="
                   width: 906px;
-                  height: 466px;
+                  height: 448px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
@@ -713,7 +755,98 @@
           </div>
 
           <hr class="line-styling" />
+          <!-- Card with Dismiss -->
+
           <!-- Card With Badge -->
+          <div class="container">
+            <h3 class="component-subheading">Card with Badge</h3>
+            <div class="card-component-container">
+              <!-- Card With Badge -->
+              <div class="card card-box-shadow">
+                <div class="card-image-container">
+                  <img
+                    class="image-responsive"
+                    src="/assets/images/card.jpg"
+                    alt="card"
+                  />
+                  <i class="card-badge far fa-heart"></i>
+                </div>
+                <div class="card-container1">
+                  <div class="card-text-container">
+                    <h5 class="card-heading">Men Peruim Jacket</h5>
+                    <p class="card-subheading">Rs 2000</p>
+                  </div>
+                  <div class="card-btn-container">
+                    <button class="btn btn-primary btn-lg">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-responsive%2522%2520src%253D%2522%252Fassets%252Fimages%252Fcard.jpg%2522%2520alt%253D%2522card%2522%2520%252F%253E%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-badge%2520far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522card-heading%2522%253EMen%2520Peruim%2520Jacket%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subheading%2522%253ERs%25202000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-lg%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                style="
+                  width: 906px;
+                  height: 355px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <hr class="line-styling" />
+          <!-- Card With Badge -->
+
+          <!-- Card Badge -->
+          <div class="container">
+            <h3 class="component-subheading">Card with Badge</h3>
+            <div class="card-component-container">
+              <!-- Card With Badge -->
+              <div class="card card-Horizontal card-box-shadow">
+                <div class="card-image-container">
+                  <span class="text-badge">NEW</span>
+                  <img
+                    class="image-responsive"
+                    src="/assets/images/card.jpg"
+                    alt="card"
+                  />
+                </div>
+                <div class="card-container">
+                  <div class="card-text-container">
+                    <h5 class="card-heading">Men Peruim Jacket</h5>
+                    <p class="card-subheading">Rs 2000</p>
+                    <span class="small-text">50% off</span>
+                  </div>
+                  <div class="card-btn-container">
+                    <button class="btn btn-primary btn-lg">Add to Cart</button>
+                    <button class="btn btn-primary btn-lg">
+                      Move to Wishlist
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-Horizontal%2520card-box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-badge%2522%253ENEW%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-responsive%2522%2520src%253D%2522%252Fassets%252Fimages%252Fcard.jpg%2522%2520alt%253D%2522card%2522%2520%252F%253E%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522card-heading%2522%253EMen%2520Peruim%2520Jacket%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subheading%2522%253ERs%25202000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522small-text%2522%253E50%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-lg%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Move%2520to%2520Wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                style="
+                  width: 906px;
+                  height: 430px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <hr class="line-styling" />
+
+          <!-- Card Badge -->
         </div>
         <!-- End - card Component -->
 
