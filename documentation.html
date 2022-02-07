@@ -72,6 +72,12 @@
             <li>
               <a href="#component-input">Input</a>
             </li>
+            <li>
+              <a href="#component-toast">Toast</a>
+            </li>
+            <li>
+              <a href="#component-rating">Rating</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -1075,6 +1081,94 @@
         </div>
 
         <!-- End - Input component  -->
+
+        <!-- Start - Toast Component  -->
+        <div class="component" id="component-toast">
+          <div class="container">
+            <h1 class="component-heading">Toast</h1>
+            <p class="component-description">
+              The toast component provide brief notifications.
+            </p>
+            <hr class="line-styling" />
+            <!-- Toast -->
+            <h3 class="component-subheading">Toast</h3>
+            <p class="component-description">
+              Click On the Button Below to see Toast Example.
+            </p>
+            <div class="component-container alert-box">
+              <button onclick="toastToggle('toast')" class="btn">
+                Click me
+              </button>
+              <div class="toast" id="toast">
+                <p class="toast-text center">
+                  Can't Sent file. Retry in 5 seconds.
+                </p>
+                <p class="toast-subtext">RETRY</p>
+                <span class="closeBtn" onclick="toastToggle('toast')">X</span>
+              </div>
+            </div>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2522%2520id%253D%2522toast%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-text%2520center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Can%27t%2520Sent%2520file.%2520Retry%2520in%25205%2520seconds.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-subtext%2522%253ERETRY%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522closeBtn%2522%2520onclick%253D%2522toastToggle%28%27toast%27%29%2522%253EX%253C%252Fspan%253E%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                style="
+                  width: 906px;
+                  height: 206px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <hr class="line-styling" />
+        </div>
+
+        <!-- End - Toast component  -->
+
+        <!-- Start - Rating Component  -->
+        <div class="component" id="component-rating">
+          <div class="container">
+            <h1 class="component-heading">Rating</h1>
+            <p class="component-description">
+              Ratings provide insight regarding others' opinions and
+              experiences.
+            </p>
+
+            <hr class="line-styling" />
+            <!-- Basic rating -->
+            <h3 class="component-subheading">Basic rating</h3>
+
+            <div class="component-container">
+              <div class="rating">
+                <span class="fa fa-star rating-fill"></span>
+                <span class="fa fa-star rating-fill"></span>
+                <span class="fa fa-star rating-fill"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520rating-fill%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520rating-fill%2522%253E%253C%252Fspan%253E%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520rating-fill%2522%253E%253C%252Fspan%253E%2509%2509%2509%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                style="
+                  width: 906px;
+                  height: 206px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <hr class="line-styling" />
+        </div>
+        <!-- End - Rating component  -->
       </section>
       <!-- End - All Component HTML will be in this Section   -->
     </main>
