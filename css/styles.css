@@ -10,6 +10,7 @@
 @import "/component/image.css";
 @import "/component/input.css";
 @import "/component/toast.css";
+@import "/component/rating.css";
 
 :root {
   --primary-color: #3066be;

@@ -1,0 +1,6 @@
+.rating {
+  margin: 1rem;
+}
+.rating-fill {
+  color: var(--success-color);
+}
