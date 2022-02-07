@@ -1169,6 +1169,67 @@
           <hr class="line-styling" />
         </div>
         <!-- End - Rating component  -->
+
+        <!-- Start - Modal Component  -->
+
+        <div class="component" id="component-modal">
+          <div class="container">
+            <h1 class="component-heading">Modal</h1>
+            <p class="component-description">
+              A modal (also called a modal window or lightbox) is a web page
+              element that displays in front of and deactivates all other page
+              content.
+            </p>
+
+            <hr class="line-styling" />
+            <!-- Modal -->
+            <h3 class="component-subheading">Modal</h3>
+
+            <div class="component-container">
+              <button onclick="modalToggle('modal')" class="btn">
+                Click me
+              </button>
+
+              <div class="modal" id="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Modal Title</h5>
+                  </div>
+                  <div class="modal-para">
+                    <p>
+                      The modal component provides a solid foundation for
+                      creating dialogs, popovers, lightboxes, or whatever else.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button onclick="toastToggle('modal')" class="btn">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal%2522%2520id%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522modal-title%2522%253EModal%2520Title%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520The%2520modal%2520component%2520provides%2520a%2520solid%2520foundation%2520for%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520creating%2520dialogs%252C%2520popovers%252C%2520lightboxes%252C%2520or%2520whatever%2520else.%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520onclick%253D%2522toastToggle%28%27modal%27%29%2522%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Close%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                style="
+                  width: 906px;
+                  height: 411px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr class="line-styling" />
+        </div>
+
+        <!-- End - Modal component  -->
       </section>
       <!-- End - All Component HTML will be in this Section   -->
     </main>

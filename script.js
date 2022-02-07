@@ -13,3 +13,12 @@ const toastToggle = (id) => {
     toast.style.display = "none";
   }
 };
+
+const modalToggle = (id) => {
+  var modal = document.getElementById(id);
+  if (modal.style.display === "none") {
+    modal.style.display = "block";
+  } else {
+    modal.style.display = "none";
+  }
+};
