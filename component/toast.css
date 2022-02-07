@@ -1,0 +1,29 @@
+.toast {
+  background-color: var(--text-color);
+  color: #fff;
+  color: var(--secondary-text-color);
+  width: fit-content;
+  display: flex;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  display: none;
+}
+
+.toast-text {
+  color: var(--secondary-text-color);
+  margin: 1rem;
+}
+
+.toast-subtext {
+  color: var(--primary-color);
+  font-family: sans-serif;
+  font-weight: 500;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.closeBtn {
+  color: var(--secondary-text-color);
+  cursor: pointer;
+  margin: 1rem;
+}
