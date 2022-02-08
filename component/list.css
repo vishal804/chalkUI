@@ -1,0 +1,15 @@
+.list-group {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+}
+
+.list-item {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--tertiary-color);
+}
+
+.spaced {
+  margin-bottom: 1rem;
+}

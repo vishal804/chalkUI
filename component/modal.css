@@ -1,0 +1,36 @@
+.modal{
+    display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4); 
+}
+.modal-content{
+  margin: auto;
+  border: 1px solid #888;
+  max-width: fit-content; 
+  background-color: var(--secondary-text-color);
+  background-color: beige;
+}
+.modal-header{
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid var(--line-styling-color);
+    font-size: 3rem;
+}
+.modal-para{
+    padding: 1rem;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+
+

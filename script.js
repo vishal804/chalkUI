@@ -2,7 +2,7 @@ const openNav = () => document.getElementById("sidebar").style.width = "250px";
 
 const closeNav = () => document.getElementById("sidebar").style.width = "0";
 
-const toastToggle = (id) => {
+const toastToggle = id => {
   var toast = document.getElementById(id);
   if (toast.style.display === "none") {
     toast.style.display = "flex";
@@ -11,5 +11,14 @@ const toastToggle = (id) => {
     }, 5000);
   } else {
     toast.style.display = "none";
+  }
+};
+
+const modalToggle = id => {
+  var modal = document.getElementById(id);
+  if (modal.style.display === "none") {
+    modal.style.display = "block";
+  } else {
+    modal.style.display = "none";
   }
 };
