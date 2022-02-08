@@ -78,6 +78,12 @@
             <li>
               <a href="#component-rating">Rating</a>
             </li>
+            <li>
+              <a href="#component-modal">Modal</a>
+            </li>
+            <li>
+              <a href="#component-list">List</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -1180,11 +1186,9 @@
               element that displays in front of and deactivates all other page
               content.
             </p>
-
             <hr class="line-styling" />
             <!-- Modal -->
             <h3 class="component-subheading">Modal</h3>
-
             <div class="component-container">
               <button onclick="modalToggle('modal')" class="btn">
                 Click me
@@ -1228,8 +1232,83 @@
 
           <hr class="line-styling" />
         </div>
-
         <!-- End - Modal component  -->
+
+        <!-- Start - List Component  -->
+
+        <div class="component" id="component-list">
+          <div class="container">
+            <h1 class="component-heading">List</h1>
+            <p class="component-description">
+              Lists are continuous, vertical indexes of text or images.
+            </p>
+
+            <hr class="line-styling" />
+            <!-- Stacked List Group -->
+            <h3 class="component-subheading">Stacked List Group</h3>
+
+            <div class="component-container">
+              <ul class="list-group">
+                <li class="list-item">Item 1</li>
+                <li class="list-item">Item 2</li>
+                <li class="list-item">Item 3</li>
+                <li class="list-item">Item 4</li>
+                <li class="list-item">Item 5</li>
+              </ul>
+            </div>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25205%253C%252Fli%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A"
+                style="
+                  width: 906px;
+                  height: 206px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr class="line-styling" />
+
+          <div class="container">
+            <!-- Spaced List Group -->
+
+            <h3 class="component-subheading">Spaced List Group</h3>
+            <div class="component-container">
+              <ul class="list-group">
+                <li class="list-item spaced">Item 1</li>
+                <li class="list-item spaced">Item 2</li>
+                <li class="list-item spaced">Item 3</li>
+                <li class="list-item spaced">Item 4</li>
+                <li class="list-item spaced">Item 5</li>
+              </ul>
+            </div>
+
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520spaced%2522%253EItem%25201%253C%252Fli%253E%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520spaced%2522%253EItem%25202%253C%252Fli%253E%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520spaced%2522%253EItem%25203%253C%252Fli%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520spaced%2522%253EItem%25204%253C%252Fli%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520spaced%2522%253EItem%25205%253C%252Fli%253E%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A"
+                style="
+                  width: 906px;
+                  height: 206px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr class="line-styling" />
+        </div>
+
+        <!-- End - List component  -->
       </section>
       <!-- End - All Component HTML will be in this Section   -->
     </main>

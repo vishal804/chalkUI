@@ -12,6 +12,7 @@
 @import "/component/toast.css";
 @import "/component/rating.css";
 @import "/component/modal.css";
+@import "/component/list.css";
 
 :root {
   --primary-color: #3066be;
