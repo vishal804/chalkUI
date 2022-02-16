@@ -2,6 +2,7 @@
 @import "/css/aside.css";
 @import "/css/documentation.css";
 
+/* Component  */
 @import "/component/avatar.css";
 @import "/component/alert.css";
 @import "/component/badge.css";

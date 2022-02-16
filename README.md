@@ -31,7 +31,7 @@ your own design system and develop your dream applications faster
 - HTML
 - CSS
 
-## How to Installation
+## How to Install 
 
 Copy and paste stylesheet link in your Project
 
