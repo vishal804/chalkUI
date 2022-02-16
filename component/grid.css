@@ -18,8 +18,8 @@
   grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
-.grid-style{
-    border: 1px solid var(--line-styling-color);
+.grid-style {
+  border: 1px solid var(--line-styling-color);
 }
 
 .grid-item-style {
@@ -29,6 +29,3 @@
   background-color: var(--default-color);
   color: var(--secondary-text-color);
 }
-
-
-
