@@ -45,6 +45,14 @@
   padding: 1rem;
 }
 
+.navigation-component-container {
+  width: 100%;
+  background-color: #f5f7f9;
+  min-height: 9rem;
+  margin: 0 0 2rem 0;
+  padding: 1rem;
+}
+
 .alert-box {
   flex-direction: column;
 }

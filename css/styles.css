@@ -13,6 +13,7 @@
 @import "/component/rating.css";
 @import "/component/modal.css";
 @import "/component/list.css";
+@import "/component/navigation.css";
 
 :root {
   --primary-color: #3066be;
@@ -41,53 +42,6 @@
   box-sizing: border-box;
 }
 
-/* Navigation Bar Styling */
-
-.navbar {
-  display: flex;
-  width: 100%;
-  align-content: center;
-  justify-content: space-between;
-  padding: 1.5rem 0;
-}
-
-.left-navbar {
-  font-size: 1.5rem;
-  font-weight: 900;
-  margin-left: 3rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.left-navbar a {
-  text-decoration: none;
-}
-
-.right-navbar {
-  display: flex;
-  justify-content: space-evenly;
-  margin-right: 3rem;
-}
-
-.right-navbar li {
-  margin: 0 1rem;
-  list-style: none;
-}
-
-.right-navbar a {
-  text-decoration: none;
-  font-weight: 800;
-  cursor: pointer;
-}
-
-.box-shadow {
-  box-shadow: 0px 0px 10px 4px #0000000d;
-}
-
-.logo {
-  font-style: italic;
-}
-
 /* Main Section Styling  */
 
 .section {
@@ -111,6 +65,10 @@
   text-align: center;
   width: 90%;
   padding: 1rem;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 10px 4px #0000000d;
 }
 
 /* For Smaller Screen */

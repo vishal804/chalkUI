@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.left-navbar {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-left: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-navbar a {
+  text-decoration: none;
+}
+
+.right-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 3rem;
+}
+
+.right-navbar li {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+.right-navbar a {
+  text-decoration: none;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.logo {
+  font-style: italic;
+}
