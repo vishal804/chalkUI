@@ -21,7 +21,7 @@
     <header>
       <nav class="navbar box-shadow">
         <div class="left-navbar">
-          <span class="show" onclick="openNav()">
+          <span class="show" id="open-nav">
             <i class="fas fa-bars"></i>
           </span>
           <div class="logo"><a href="index.html">Chalk</a></div>
@@ -44,9 +44,7 @@
           </div>
           <ul class="list-subheading">
             <li class="show">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-                >&times;</a
-              >
+              <a class="closebtn" id="close-nav">&times;</a>
             </li>
             <li>
               <a href="#installation">Installation</a>
@@ -1108,15 +1106,13 @@
               Click On the Button Below to see Toast Example.
             </p>
             <div class="component-container alert-box">
-              <button onclick="toastToggle('toast')" class="btn">
-                Click me
-              </button>
+              <button class="btn" id="toast-toggle">Click me</button>
               <div class="toast" id="toast">
                 <p class="toast-text center">
                   Can't Sent file. Retry in 5 seconds.
                 </p>
                 <p class="toast-subtext">RETRY</p>
-                <span class="closeBtn" onclick="toastToggle('toast')">X</span>
+                <span class="closeBtn" id="toast-close-btn">X</span>
               </div>
             </div>
 
@@ -1196,9 +1192,7 @@
             <!-- Modal -->
             <h3 class="component-subheading">Modal</h3>
             <div class="component-container">
-              <button onclick="modalToggle('modal')" class="btn">
-                Click me
-              </button>
+              <button class="btn" id="modal-toggle">Click me</button>
 
               <div class="modal" id="modal">
                 <div class="modal-content">
@@ -1212,9 +1206,7 @@
                     </p>
                   </div>
                   <div class="modal-footer">
-                    <button onclick="toastToggle('modal')" class="btn">
-                      Close
-                    </button>
+                    <button class="btn" id="modal-close-btn">Close</button>
                   </div>
                 </div>
               </div>

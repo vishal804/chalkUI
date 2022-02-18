@@ -1,24 +1,33 @@
-const openNav = () => document.getElementById("sidebar").style.width = "250px";
+// Side Nav bar
 
-const closeNav = () => document.getElementById("sidebar").style.width = "0";
+const openNav = document.querySelector("#open-nav");
+const closeNav = document.querySelector("#close-nav");
 
-const toastToggle = id => {
-  var toast = document.getElementById(id);
-  if (toast.style.display === "none") {
-    toast.style.display = "flex";
-    setTimeout(() => {
-      toast.style.display = "none";
-    }, 5000);
-  } else {
+openNav.addEventListener("click", () => (document.querySelector("#sidebar").style.width = "250px"));
+
+closeNav.addEventListener("click", () => (document.querySelector("#sidebar").style.width = "0"));
+
+// Toast
+
+const toastToggle = document.querySelector("#toast-toggle");
+const toast = document.querySelector("#toast");
+const toastCloseBtn = document.querySelector("#toast-close-btn");
+
+toastToggle.addEventListener("click", () => {
+  toast.style.display = "flex";
+  setTimeout(() => {
     toast.style.display = "none";
-  }
-};
+  }, 5000);
+});
 
-const modalToggle = id => {
-  var modal = document.getElementById(id);
-  if (modal.style.display === "none") {
-    modal.style.display = "block";
-  } else {
-    modal.style.display = "none";
-  }
-};
+toastCloseBtn.addEventListener("click", () => (toast.style.display = "none"));
+
+// Modal
+
+const modalToggle = document.querySelector("#modal-toggle");
+const modal = document.querySelector("#modal");
+const modalCloseBtn = document.querySelector("#modal-close-btn");
+
+modalToggle.addEventListener("click", () => (modal.style.display = "block"));
+
+modalCloseBtn.addEventListener("click", () => (modal.style.display = "none"));
