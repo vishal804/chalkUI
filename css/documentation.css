@@ -1,41 +1,81 @@
-.show {
-  display: none;
+/* Component Section In Documentation Styling */
+.component-section {
+  flex-grow: 1;
 }
 
-.NoShow {
-  display: block;
+.container {
+  margin: auto;
+  padding: 2rem;
 }
 
-.page-container {
+.component-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.component-description {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  margin: 0 0 2rem 0;
+}
+
+.component-container {
   display: flex;
-  width: 80%;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--container-background-color);
+  min-height: 9rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 2rem 0;
+  padding: 1rem;
 }
 
-.section {
-  margin: 3rem;
-  padding: 0 1rem;
+.card-component-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--container-background-color);
+  min-height: 9rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 2rem 0;
+  padding: 1rem;
 }
 
+.navigation-component-container {
+  width: 100%;
+  background-color: var(--container-background-color);
+  min-height: 9rem;
+  margin: 0 0 2rem 0;
+  padding: 1rem;
+}
 
-/* For Smaller Screen  */
+.alert-box {
+  flex-direction: column;
+}
 
-@media only screen and (max-width: 768px){
+.component-subheading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
 
-    .show{
-        display: block;
-    }
+.component-container img {
+  margin: 0 0.625rem;
+}
 
-   .NoShow{
-        display: none;
-    }
+.component-code {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 9rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-    .logo{
-        margin: 0 5rem;
-    }
-
-    .page-container{
-        display: block;
-        width: 80%;
-    }
-
+.line-styling {
+  margin: 0 0 2rem 0;
 }
