@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chalk Documentation</title>
-    <link rel="stylesheet" href="/css/aside.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -21,15 +21,17 @@
     <header>
       <nav class="navbar box-shadow">
         <div class="left-navbar">
-          <span class="show" onclick="openNav()">
+          <span class="show" id="open-nav">
             <i class="fas fa-bars"></i>
           </span>
           <div class="logo"><a href="index.html">Chalk</a></div>
         </div>
         <ul class="right-navbar">
-          <li class="NoShow"><a href="index.html">Home</a></li>
-          <li class="NoShow"><a href="documentation.html">Documentation</a></li>
-          <li class="NoShow"><a href="documentation.html">Installation</a></li>
+          <li class="no-show"><a href="index.html">Home</a></li>
+          <li class="no-show">
+            <a href="documentation.html">Documentation</a>
+          </li>
+          <li class="no-show"><a href="documentation.html">Installation</a></li>
         </ul>
       </nav>
     </header>
@@ -44,9 +46,7 @@
           </div>
           <ul class="list-subheading">
             <li class="show">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-                >&times;</a
-              >
+              <a class="closebtn" id="close-nav">&times;</a>
             </li>
             <li>
               <a href="#installation">Installation</a>
@@ -789,7 +789,7 @@
                   />
                   <i class="card-badge far fa-heart"></i>
                 </div>
-                <div class="card-container1">
+                <div class="card-container">
                   <div class="card-text-container">
                     <h5 class="card-heading">Men Peruim Jacket</h5>
                     <p class="card-subheading">Rs 2000</p>
@@ -802,10 +802,10 @@
             </div>
             <div class="component-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-responsive%2522%2520src%253D%2522%252Fassets%252Fimages%252Fcard.jpg%2522%2520alt%253D%2522card%2522%2520%252F%253E%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-badge%2520far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522card-heading%2522%253EMen%2520Peruim%2520Jacket%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subheading%2522%253ERs%25202000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-lg%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=htmlmixed&width=831.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-responsive%2522%2520src%253D%2522%252Fassets%252Fimages%252Fcard.jpg%2522%2520alt%253D%2522card%2522%2520%252F%253E%2509%2509%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-badge%2520far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522card-heading%2522%253EMen%2520Peruim%2520Jacket%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subheading%2522%253ERs%25202000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-lg%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
                 style="
                   width: 906px;
-                  height: 355px;
+                  height: 372px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
@@ -1108,15 +1108,13 @@
               Click On the Button Below to see Toast Example.
             </p>
             <div class="component-container alert-box">
-              <button onclick="toastToggle('toast')" class="btn">
-                Click me
-              </button>
+              <button class="btn" id="toast-toggle">Click me</button>
               <div class="toast" id="toast">
                 <p class="toast-text center">
                   Can't Sent file. Retry in 5 seconds.
                 </p>
                 <p class="toast-subtext">RETRY</p>
-                <span class="closeBtn" onclick="toastToggle('toast')">X</span>
+                <span class="closeBtn" id="toast-close-btn">X</span>
               </div>
             </div>
 
@@ -1196,9 +1194,7 @@
             <!-- Modal -->
             <h3 class="component-subheading">Modal</h3>
             <div class="component-container">
-              <button onclick="modalToggle('modal')" class="btn">
-                Click me
-              </button>
+              <button class="btn" id="modal-toggle">Click me</button>
 
               <div class="modal" id="modal">
                 <div class="modal-content">
@@ -1212,9 +1208,7 @@
                     </p>
                   </div>
                   <div class="modal-footer">
-                    <button onclick="toastToggle('modal')" class="btn">
-                      Close
-                    </button>
+                    <button class="btn" id="modal-close-btn">Close</button>
                   </div>
                 </div>
               </div>
