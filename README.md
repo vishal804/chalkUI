@@ -3,7 +3,9 @@
 Chalk UI is an robust, customizable, and accessible library whichhelps Developers to use best styles and components you can build
 your own design system and develop your dream applications faster
 
+```
 ![Chalk UI](assets/images/Landing Page.png)
+```
 
 ## Features
 
