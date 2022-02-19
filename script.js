@@ -3,7 +3,7 @@
 const openNav = document.querySelector("#open-nav");
 const closeNav = document.querySelector("#close-nav");
 
-openNav.addEventListener("click", () => (document.querySelector("#sidebar").style.width = "250px"));
+openNav.addEventListener("click", () => (document.querySelector("#sidebar").style.width = "15.5rem"));
 
 closeNav.addEventListener("click", () => (document.querySelector("#sidebar").style.width = "0"));
 

@@ -1,5 +1,5 @@
 .aside {
-  flex: 0 0 230px;
+  flex: 0 0 14.5rem;
   margin-right: 1rem;
   padding: 1rem;
   box-shadow: 0 4px 12px 0 rgba(0 0 0 / 5%);
@@ -49,7 +49,6 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
     background-color: var(--text-color);
     overflow-x: hidden;
     padding: 3rem 0 0 0;
