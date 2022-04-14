@@ -15,6 +15,7 @@
 @import "/component/list.css";
 @import "/component/navigation.css";
 @import "/component/grid.css";
+@import "/component/typography.css";
 
 :root {
   --primary-color: #3066be;
