@@ -53,6 +53,14 @@
   padding: 1rem;
 }
 
+.typography-component-container {
+  width: 100%;
+  background-color: var(--container-background-color);
+  min-height: 9rem;
+  margin: 0 0 2rem 0;
+  padding: 1rem;
+}
+
 .alert-box {
   flex-direction: column;
 }

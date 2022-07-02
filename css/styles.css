@@ -15,10 +15,11 @@
 @import "/component/list.css";
 @import "/component/navigation.css";
 @import "/component/grid.css";
+@import "/component/typography.css";
 
 :root {
   --primary-color: #3066be;
-  --primary-hover-color: #44b6eb;
+  --primary-hover-color: #5c8bd6;
   --secondary-color: #c5c3c6;
   --secondary-hover-color: #d2d1d3;
   --text-color: #1f2937;
@@ -80,6 +81,12 @@
 .page-container {
   display: flex;
   width: 80%;
+}
+
+.navigationbar {
+  position: sticky;
+  top: 0;
+  background-color: var(--background-color);
 }
 
 /* For Smaller Screen */
