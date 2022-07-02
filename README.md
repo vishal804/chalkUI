@@ -15,8 +15,8 @@ your own design system and develop your dream applications faster
 ## Components
 
 - [Avatar](https://chalkui.netlify.app/documentation.html#component-avatar)
-- [Alert](https://chalkui.netlify.app/documentation.html#component-Alert)
 - [Badge](https://chalkui.netlify.app/documentation.html#component-badge)
+- [Alert](https://chalkui.netlify.app/documentation.html#component-Alert)
 - [Button](https://chalkui.netlify.app/documentation.html#component-button)
 - [Card](https://chalkui.netlify.app/documentation.html#component-card)
 - [Image](https://chalkui.netlify.app/documentation.html#component-image)
@@ -27,6 +27,7 @@ your own design system and develop your dream applications faster
 - [List](https://chalkui.netlify.app/documentation.html#component-list)
 - [Navigation](https://chalkui.netlify.app/documentation.html#component-navigation)
 - [Grid](https://chalkui.netlify.app/documentation.html#component-grid)
+- [Typography](https://chalkui.netlify.app/documentation.html#component-typography)
 
 ## Technologies used
 
